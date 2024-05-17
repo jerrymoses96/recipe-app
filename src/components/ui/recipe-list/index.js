@@ -15,6 +15,11 @@ const RecipeList = ({ recipe }) => {
     <div>
       <div className="p-4 mx-auto lg:max-w-6xl md:max-w-4xl sm:max-w-full">
         <h2 className="text-4xl font-bold mb-12 text-gray-800">Recipes</h2>
+        <Link href={"/"}>
+          <button className="mb-4 bg-gray-900 px-5 py-2 text-cyan-100 rounded-lg">
+            Go Home
+          </button>
+        </Link>
         <div className="grid grid-cols-4 gap-8">
           {recipe && recipe.length > 0
             ? recipe.map((rec, index) => (
