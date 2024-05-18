@@ -5,7 +5,7 @@ const RecipeDetails = ({ getRecipeDetails }) => {
   return (
     <div>
       <Link  href={"/recipe-list"}>
-        click if farzu is a manakuusu
+        click if go recipe list
       </Link>
       <div className="p-6 mt-5 lg:max-w-6xl max-w-2xl mx-auto border-2 shadow-xl border-gray-300">
         <div className="grid items-start grid-cols-1 lg:grid-cols-2 gap-10">
